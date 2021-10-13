@@ -1,0 +1,19 @@
+body {
+    font-family: 'New Rocker', cursive;
+}
+
+.navbar-brand {
+    text-shadow: 3px 3px 8px rgba(0,0,0,0.6);
+    letter-spacing: 2.5px;
+    margin-left: 20px;
+}
+
+.judul {
+    padding-top: 0.6em;
+}
+
+h2 {
+    text-shadow: 3px 3px 8px rgba(0,0,0,0.6);
+}
+
+

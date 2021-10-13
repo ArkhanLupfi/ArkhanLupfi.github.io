@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Omong Kosong Dan Gimik</title>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Metal+Mania&family=New+Rocker&family=Oswald:wght@300&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <header class="header">
+            <div class="hero">
+                <h2>Omong Kosong Dan Gimik</h2>
+                <p class="sub-heading">Di tulis oleh Arkhan Lupfi, pada circa 2020-2021</p>
+            </div>
+            <div class="features feature-1">
+                <h4 class="artikel"><a href="Sajak.html">Tulisan Omong Kosong</a></h4>
+                <p class="items"><a href="Sajak.html">Berbentuk Sajak</a></p>
+            </div>
+            <div class="features feature-2">
+                <h4 class="artikel"><a href="Puisi.html">Tulisan Omong Kosong</a></h4>
+                <h4 class="items"><a href="Puisi.html">Berbentuk Puisi</a></h4>
+            </div>
+        </header>
+
+        <nav class="menu">
+            <div class="menu-toggle">
+                <input type="checkbox">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="judul">
+                <h1>Omong Kosong Dan Gimik</h1>
+            </div>
+            <ul class="menu-list">
+                <li><a href="Portfolio1.html">About</a></li>
+                <li><a href="Gallery.html">Galerry</a></li>
+                <li><a href="Comentar.html">Comentar</a></li>
+            </ul>
+        </nav>
+
+        <section class="services">
+            <div class="service">
+                <div class="icon"><a href="http://instagram.com/lupfi15" class="instagram" target="_blank">@lupfi15</a>
+                </div>
+                <h3>Instagram</h3>
+                <p>Bila ingin mengenal saya lebih banyak bisa mampir ke kanal instagram saya, tapi tak ada yang
+                    spektakuler dari
+                    saya, dan mungkin tak akan mendapat informasi lebih banyak disana, sebab bisa dibilang saya seorang
+                    yang introvert (tapi boong awkowkwowkw)</p>
+            </div>
+            <div class="service">
+                <div class="icon"><a href="http://twitter.com/LupfiArkhan" class="twitter" target="_blank">Arkhan
+                        Lupfi</a>
+                </div>
+                <h3>Twitter</h3>
+                <p>Bila ingin mengenal saya lebih banyak bisa mampir ke kanal twitter saya, disana kalian bisa
+                    mendapatkan informasi lebih banyak dari saya, tetapi saya berbohong, sebab disana cuma ada halaman
+                    kosong (xixixi ngakak abiezz pack)</p>
+            </div>
+            <div class="service">
+                <div class="icon"><a href="http://facebook.com/ArkhanLupfi" class="facebook" target="_blank">Arkhan
+                        Lupfi</a>
+                </div>
+                <h3>Facebook</h3>
+                <p>Bila ingin mengenal saya lebih banyak bisa mampir ke kanal facebook saya, sebab disana kalian akan
+                    melihat transformasi wajah saya dari masa ke masa, semisal tak ingin melihat pun juga tak apa, sebab
+                    mau cukur ga ya gondrong (xixixi ngakak abiiez lagi pack) </p>
+            </div>
+            <div class="service">
+                <div class="icon"><a href="http://line.com/lupfi15" class="line" target="_blank">Arkhan Lupfi</a>
+                </div>
+                <h3>Podcast</h3>
+                <p>Bila ingin mengenal saya lebih banyak bisa mampir ke podcast saya, sebab jika kalian ingin kita
+                    bisa berbincang tentang tema apapun, seperti negara yang kacau, teriakan bocah kelaparan, pekerja
+                    seks yang menangis di jam 4 pagi, dan masih banyak yang lainnya. </p>
+            </div>
+        </section>
+        <script>
+            const menuToggle = document.querySelector('.menu-toggle input');
+            const nav = document.querySelector('nav ul');
+            menuToggle.addEventListener('click', function () {
+                nav.classList.toggle('slide');
+            });
+        </script>
+
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.1/gsap.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.1/TextPlugin.min.js"></script>
+        <script>
+            // Animamtion Navbar dan Jumbotron (Gsap)
+            gsap.registerPlugin(TextPlugin);
+            gsap.from('.judul', { duration: 2, y: '-100%', opacity: 0, ease: 'bounce' });
+        </script>
+
+</body>
+
+</html>

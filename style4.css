@@ -1,0 +1,46 @@
+body {
+    font-family:  'New Rocker', cursive;;
+    background-color: whitesmoke;
+}
+
+.navbar-brand {
+    letter-spacing: 2.5px;
+    text-shadow: 3px 3px 8px rgba(0,0,0,0.6);
+}
+
+.carousel-contain {
+    color: black;
+    text-align: center;
+    padding-top: 5em;
+}
+
+section h2 {
+    padding-top: 1em;
+    color: black;
+    text-shadow: 2px 2px 5px rgba(0,0,0,0.5);
+}
+
+#sajak h2 {
+    padding-bottom: 10px;
+}
+
+#sajak h5 {
+    padding-top: 20px;
+    padding-bottom: 15px;
+    text-align: start;
+    text-shadow: 2px 2px 3px rgba(0,0,0,0.4);
+}
+
+.pKiri, .pKanan {
+    font-size: 13px;
+    text-align: justify;
+    font-family: 'Roboto Slab', serif;
+}
+
+
+
+@media (max-width: 600px) {
+    .navbar-brand {
+        letter-spacing: 1.2px;
+    }
+}

@@ -1,0 +1,28 @@
+body {
+    font-family: 'New Rocker', cursive;;
+    background-color: whitesmoke;
+}
+
+.navbar-brand {
+    text-shadow: 3px 3px 8px rgba(0,0,0,0.6);
+}
+
+h2 {
+    padding-top: 2.2em;
+    padding-bottom: 0.8em;
+    text-shadow: 3px 3px 8px rgba(0,0,0,0.6);
+}
+
+img {
+    border: 2px solid lightgray;
+    box-shadow: 2px 2px 4px rgba(0,0,0,0.6);
+}
+
+.item {
+    transition: .5s ease-in-out
+}
+
+.item:hover{
+    filter: brightness(78%);
+}
+

@@ -1,0 +1,155 @@
+html {
+    position: relative;
+}
+
+body {
+    font-family: 'New Rocker', cursive;
+    background-color: whitesmoke;
+}
+
+.navbar-brand {
+    text-shadow: 3px 3px 8px rgba(0,0,0,0.6);
+    letter-spacing: 2.5px;
+}
+
+.jumbotron {
+    height: 620px;
+    padding-top: 11rem;
+    background-image: url(Gambar/2.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: antiquewhite;
+}
+
+.jumbotron h1 {
+    padding-top: 15px;
+    font-size: 1.8em;
+}
+
+section {
+    padding-top: 3.5em;
+}
+
+
+#about h2 {
+    padding-top: 10px;
+    text-shadow: 3px 3px 8px rgba(0,0,0,0.6);
+}
+
+#karya h2 {
+    padding-top: 15px;
+    text-shadow: 3px 3px 8px rgba(0,0,0,0.6);
+}
+
+#about p {
+    padding-top: 15px;
+    font-size: 14.4px;
+}
+
+#karya p {
+    font-size: 14px;
+}
+
+.pKiri, .pKanan {
+    text-align: justify;
+}
+
+.card {
+    box-shadow: 3px 3px 8px rgba(0,0,0,0.6);
+    transition: .5s ease-in-out;
+}
+
+.card:hover{
+    filter: brightness(78%);
+}
+
+
+/*contact*/
+#contact{
+	padding: 8rem 0;
+	background-color: #F5F5F5;
+}
+.title-contact h1{
+	text-transform: capitalize;
+	font-size: 35px;
+	color: black;
+	padding-bottom: 10px;
+    text-shadow: 3px 3px 10px rgba(0,0,0,0.6);
+}
+.title-contact p{
+	font-size: 20px;
+	color: black;
+    opacity: 0.5;
+	padding-bottom: 5px;
+}
+#contact .container .phone-contact .contact-isi .btn{
+	color: black;
+	border-radius: 0%;
+	font-size: 20px;
+	cursor: default;
+}
+.contact-isi h3{
+	padding-bottom: 25px;
+}
+.contact-isi2 a{
+	color: black;
+	padding-bottom: 20px;
+}
+.contact-isi2 a:hover{
+	color: black;
+    opacity: 0.5;
+}
+
+/* footer */
+footer h5 {
+    font-size: 18.5px;
+}
+
+footer p {
+    text-align: justify;
+    font-size: 15.5px;
+}
+
+
+
+
+
+
+/* Responsive Breakpoint */
+
+@media (max-width: 600px) {
+    .jumbotron {
+        height: 670px;
+        padding-top: 270px;
+        background-position-x: 500px;
+    }
+ 
+    .jumbotron h1 {
+        font-size: 1.5em;
+    }
+ 
+    .jumbotron h5 {
+     font-size: 1.1em;
+    }
+ 
+    .jumbotron img {
+     width: 120px;
+    }
+
+    
+.navbar-brand {
+    letter-spacing: 0.7px;
+    margin-left: -5px;
+}
+
+     .row p {
+         margin: 30px;
+         font-size: 0.8em;
+     }
+ 
+     .about h2 {
+         font-size: 1.3em;
+     }
+ 
+}
